@@ -15,8 +15,8 @@ namespace selenium_csharp
         public void ShouldBeAbleToLogin()
         {
             var outputDirectory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-            var driver = new ChromeDriver(outputDirectory);
-            driver.Navigate().GoToUrl("https://www.saucedemo.com/");
+            _driver = new ChromeDriver(outputDirectory);
+            _driver.Navigate().GoToUrl("https://www.saucedemo.com/");
         }
 
         [TestCleanup]
