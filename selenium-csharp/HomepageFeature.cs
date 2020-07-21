@@ -32,6 +32,8 @@ namespace selenium_csharp
             userNameField.SendKeys("standard_user");
             passwordField.SendKeys("secret_sauce");
             loginButton.Click();
+
+            Assert.IsTrue(_driver.Url.Contains("inventory.html"));
         }
 
         [TestCleanup]
