@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "DBwsOf2cswTS+GC3axGkA458YgVqNohS8mdqIRqe/3fjk16dXutabgDZP24nIkeTmIjjkv9N5QXfD8vAovAhcg==",
+  "dgSpecHash": "TWJ97AXMEzU2MWbPUwRADGBBo3+b1gVXdsQlnUmw+j/q9X3m1mVDaiIHm7/qEYhtmJiqpBLsN5d/ioABObLEOA==",
   "success": true,
   "projectFilePath": "C:\\Users\\stattom\\source\\repos\\selenium-csharp\\selenium-csharp\\selenium-csharp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\stattom\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
+    "C:\\Users\\stattom\\.nuget\\packages\\dotnetseleniumextras.waithelpers\\3.11.0\\dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
     "C:\\Users\\stattom\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
     "C:\\Users\\stattom\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
     "C:\\Users\\stattom\\.nuget\\packages\\microsoft.net.test.sdk\\16.5.0\\microsoft.net.test.sdk.16.5.0.nupkg.sha512",

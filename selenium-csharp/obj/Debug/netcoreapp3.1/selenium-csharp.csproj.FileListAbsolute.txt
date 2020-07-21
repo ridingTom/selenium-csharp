@@ -90,7 +90,6 @@ C:\Users\stattom\source\repos\selenium-csharp\selenium-csharp\obj\Debug\netcorea
 C:\Users\stattom\source\repos\selenium-csharp\selenium-csharp\obj\Debug\netcoreapp3.1\selenium-csharp.genruntimeconfig.cache
 C:\Users\stattom\source\repos\selenium-csharp\selenium-csharp\bin\Debug\netcoreapp3.1\selenium-csharp.pdb
 C:\Users\stattom\source\repos\selenium-csharp\selenium-csharp\bin\Debug\netcoreapp3.1\WebDriver.dll
-C:\Users\stattom\source\repos\selenium-csharp\selenium-csharp\obj\Debug\netcoreapp3.1\selenium-csharp.csproj.CoreCompileInputs.cache
 C:\Users\stattom\source\repos\selenium-csharp\selenium-csharp\obj\Debug\netcoreapp3.1\selenium-csharp.dll
 C:\Users\stattom\source\repos\selenium-csharp\selenium-csharp\obj\Debug\netcoreapp3.1\selenium-csharp.pdb
 C:\Users\stattom\source\repos\selenium-csharp\selenium-csharp\bin\Debug\netcoreapp3.1\chromedriver.exe
