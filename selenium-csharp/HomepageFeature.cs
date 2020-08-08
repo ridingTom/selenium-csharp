@@ -6,6 +6,7 @@ using SeleniumExtras.WaitHelpers;
 using System;
 using System.IO;
 using System.Reflection;
+using System.Threading;
 
 namespace selenium_csharp
 {
@@ -20,6 +21,7 @@ namespace selenium_csharp
             var outputDirectory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
             _driver = new ChromeDriver(outputDirectory);
             _driver.Navigate().GoToUrl("https://www.saucedemo.com/");
+            _driver.Manage().Window.Maximize();
 
             var loginButtonLocator = By.Id("login-button");
             var wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(10));
@@ -39,6 +41,7 @@ namespace selenium_csharp
         [TestCleanup]
         public void CleanUp()
         {
+            Thread.Sleep(10000);
             _driver.Quit();
         }
     }
